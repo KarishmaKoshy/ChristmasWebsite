@@ -1,0 +1,62 @@
+
+.a{
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .card{
+    border: 0;
+  }
+
+  
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .img1 {
+    border: solid 10px white;
+}
+.img1:hover {
+    border-color:black;
+    opacity: 0.8;
+}
+
+.img2 {
+  border: solid 5px #b80404;
+  
+}
+.img2:hover {
+  border-color:black;
+  opacity: 0.4;
+}
